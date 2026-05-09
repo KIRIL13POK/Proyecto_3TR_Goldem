@@ -182,10 +182,11 @@ h2 {
   text-align: center;
 }
 
-.video video {
-  width: 100%;
+.video video{
+    width: 100%;
+    height: auto;
 
-  display: block;
+    display: block;
 }
 
 /* RESPONSIVE */

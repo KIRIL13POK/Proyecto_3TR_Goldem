@@ -116,6 +116,8 @@ h2 {
 
 .producto {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  
 }
 
 .producto:hover {
@@ -136,6 +138,7 @@ h2 {
 .producto__descripcion {
   line-height: 1.5;
   font-size: 0.95rem;
+  
 }
 
 /* RESPONSIVE */
@@ -159,20 +162,12 @@ h2 {
 
 .video video {
   width: 100%;
+  height: auto;
   display: block;
 }
 
-/* RESPONSIVE */
-@media (min-width: 768px) {
-  .productos__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1024px) {
-  .productos__grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+
+
 /* FOOTER */
 .footer {
   background-color: #111111;
