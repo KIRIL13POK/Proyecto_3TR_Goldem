@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro contacto</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__barra contenedor">
+
+            <nav class="navegacion">
+                <a class="navegacion__link" href="index.html">Sobre Nosotros</a>
+                <a class="navegacion__link" href="catalogo.html">Catalogo</a>
+                <a class="navegacion__link" href="contacto.html">Contacto</a>
+                <a class="navegacion__link" href="login.html">Iniciar Sesión</a>
+            </nav>
+        </div>
+
+        <div class="contenido__header contenedor">
+            <h1 class="header__h1">Golden Bakery Shop</h1>
+
+
+            <div class="header__logo">
+                <!--<img src="img/GOLDEN_logo.jpg" alt="Logo de tienda" width="400">-->
+                <img src="img/GOLDEN_logo.webp" alt="Logo de tienda" width="400">
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="contacto contenedor">
+
+            <h2>Contacto</h2>
+
+
+
+            <p>
+                Escríbenos para hacer un pedido, consultar disponibilidad o pedir información
+                sobre nuestros productos artesanales.
+            </p>
+
+            <form class="formulario">
+
+                <div class="formulario__campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                </div>
+
+                <div class="formulario__campo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com">
+                </div>
+
+                <div class="formulario__campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
+                </div>
+
+                <div class="formulario__campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+
+                <button class="formulario__boton" type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+
+        </section>
+
+        <section class="audio-section">
+
+            <audio controls>
+                <source src="audio/videoplayback.mp4" type="audio/mpeg">
+
+                Tu navegador no soporta audio.
+            </audio>
+
+        </section>
+
+        <section class="localizacion__mapa">
+            <div class="localizacion__mapa__img">
+                <h2>Nuesta Ubicación</h2>
+
+                <img src="img/direccion-mapa.png" srcset="
+                                                  img/direccion-mapa-480.webp 480w,
+                                                  img/direccion-mapa-768.webp 768w,
+                                                  img/direccion-mapa-1200.webp 1200w" sizes="(max-width:768px) 100vw, 
+                                                  25vw" alt="direccion-mapa">
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__contenedor contenedor">
+
+            <div class="footer__contacto">
+
+
+                <p>Email: info@goldenbakeryshop.com</p>
+
+                <p>Teléfono: +34 600 000 000</p>
+
+                <p>A Coruña, Galicia</p>
+
+            </div>
+
+        </div>
+
+        <p class="footer__copyright">
+            &copy; 2026 Golden Bakery Shop. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

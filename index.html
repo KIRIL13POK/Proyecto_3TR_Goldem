@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Sobre Nosotros</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header__barra contenedor">
+
+      <nav class="navegacion">
+        <a class="navegacion__link" href="index.html">Sobre Nosotros</a>
+        <a class="navegacion__link" href="catalogo.html">Catalogo</a>
+        <a class="navegacion__link" href="contacto.html">Contacto</a>
+        <a class="navegacion__link" href="login.html">Iniciar Sesión</a>
+      </nav>>
+
+    </div>
+
+    <div class="contenido__header contenedor">
+      <h1 class="header__h1">Golden Bakery Shop</h1>
+
+
+      <div class="header__logo">
+        <!--<img src="img/GOLDEN_logo.jpg" alt="Logo de tienda" width="400">-->
+        <img src="img/GOLDEN_logo.webp" alt="Logo de tienda" >
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="sobre-nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Golden Bakery Shop es una pastelería artesanal ubicada en A Coruña,
+        creada con la pasión de ofrecer productos frescos, creativos y elaborados diariamente.
+        Nuestro equipo trabaja cada receta cuidadosamente, combinando ingredientes seleccionados,
+        técnicas tradicionales y un estilo moderno que convierte cada postre en una experiencia única.
+      </p>
+      <p lang="gl">
+        Especializados en tortas de queixo, brownies e cookies artesanais,
+        buscamos transmitir proximidade, calidade e dedicación en cada detalle.
+        En Golden Bakery Shop cremos que a repostaría non só se desfruta,
+        tamén se comparte e se recorda.
+      </p>
+    </section>
+
+    <section class="video contenedor">
+
+      <h2>Nuestro Obrador</h2>
+
+      <video controls poster="img/video-poster.webp">
+
+        <source src="videos/videoplayback.mp4" type="video/mp4">
+
+        Tu navegador no soporta video.
+
+      </video>
+
+    </section>
+
+    <section class="productos-destacados">
+      <h2>Productos Destacados</h2>
+
+      <div class="productos__grid">
+
+        <!--1 Brownie-->
+        <article class="producto">
+
+          <!--<img src="img/BrownieOreo.png" alt="Brownie Oreo" width="300">-->
+          <img src="img/BrownieOreo.png" srcset="
+                                                  img/BrownieOreo_480.webp 480w,
+                                                  img/BrownieOreo_768.webp 768w,
+                                                  img/BrownieOreo_1200.webp 1200w" sizes="(max-width:768px) 100vw, 
+                                                  25vw" alt="Brownie Oreo">
+
+          <h3>
+            Brownie Oreo
+          </h3>
+          <p class="producto__descripcion">
+            Brownie artesanal elaborado con intenso chocolate negro y trozos crujientes de galleta Oreo,
+            consiguiendo una textura cremosa y un sabor irresistible en cada bocado.
+          </p>
+        </article>
+
+        <!--2 Cookie Negro-->
+        <article class="producto">
+          <!--<img src="img/CookieAll-Black.png" alt="Cookie de chocolate negro" width="300">-->
+          <img src="img/CookieAll-Black.png" srcset="
+                                                  img/CookieAll-Black-480.webp 480w,
+                                                  img/CookieAll-Black-768.webp 768w,
+                                                  img/CookieAll-Black-1200.webp 1200w" sizes="(max-width:768px) 100vw, 
+                                                  25vw" alt="Cookie chocolate negro">
+
+          <h3>
+            Cookie de chocolate negro
+          </h3>
+          <p class="producto__descripcion">
+            Cookie de chocolate negro recién horneada, con interior suave y textura crujiente,
+            preparada con cacao de alta calidad para los amantes del chocolate intenso.
+          </p>
+        </article>
+
+        <!--3 Cookie blanco-->
+        <article class="producto">
+          <!--<img src="img/CookieChocolateTostadasNueces.png" alt="cookie de chocolate blanco" width="300">-->
+          <img src="img/CookieChocolateTostadasNueces.png" srcset="
+                                                  img/CookieChocolateTostadasNueces-480.webp 480w,
+                                                  img/CookieChocolateTostadasNueces-768.webp 768w,
+                                                  img/CookieChocolateTostadasNueces-1200.webp 1200w" sizes="(max-width:768px) 100vw, 
+                                                  25vw" alt="Cookie chocolate blanco">
+          <h3>
+            Cookie de chocolate blanco
+          </h3>
+          <p class="producto__descripcion">
+            Deliciosa cookie de chocolate blanco con una textura cremosa y un sabor suave y dulce,
+            perfecta para disfrutar acompañada de café o chocolate caliente.
+          </p>
+        </article>
+
+        <!--4 Tartas-->
+        <article class="producto">
+          <!--<img src="img/GoldenCheesecake.png" alt="tarta de queso" width="300">-->
+          <img src="img/GoldenCheesecake.png" srcset="
+                                                  img/GoldenCheesecake-480.webp 480w,
+                                                  img/GoldenCheesecake-768.webp 768w,
+                                                  img/GoldenCheesecake-1200.webp 1200w" sizes="(max-width:768px) 100vw, 
+                                                  25vw" alt="Tarta de queso">
+          <h3>
+            Cremosas tartas de queso
+          </h3>
+          <p class="producto__descripcion">
+            Cremosas tartas de queso elaboradas diariamente de forma artesanal,
+            combinando una textura suave y ligera con ingredientes frescos y cuidadosamente seleccionados.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="video">
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer__contenedor contenedor">
+
+      <div class="footer__contacto">
+
+
+        <p>Email: info@goldenbakeryshop.com</p>
+
+        <p>Teléfono: +34 600 000 000</p>
+
+        <p>A Coruña, Galicia</p>
+
+      </div>
+
+    </div>
+
+    <p class="footer__copyright">
+      &copy; 2026 Golden Bakery Shop. Todos los derechos reservados.
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
