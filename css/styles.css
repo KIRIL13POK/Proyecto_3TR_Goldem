@@ -347,7 +347,8 @@ h2 {
   height: auto;
   display: block;
   border-radius: 1rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .localizacion__mapa__img {
@@ -381,4 +382,27 @@ h2 {
   max-width: 500px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.banner picture,
+.banner img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.banner img {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .banner picture,
+  .banner img {
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  .banner picture,
+  .banner img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */

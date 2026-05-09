@@ -451,3 +451,43 @@ h2 {
     max-width: 500px;
   }
 }
+
+//Banner
+
+.banner{
+
+    picture,
+    img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    img{
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px){
+
+    .banner{
+
+        picture,
+        img{
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 480px){
+
+    .banner{
+
+        picture,
+        img{
+            width: 100%;
+        }
+    }
+}
+
